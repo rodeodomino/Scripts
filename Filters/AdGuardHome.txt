@@ -1,0 +1,92 @@
+! Title: Personal filters
+! Description: Personal filters and exception rules for AdGuard Home
+! Last modified: 02 Jan 2020
+!
+||api.radar.io^
+||beanstalk.37signals.com^
+!
+! Facebook
+!
+||graph.facebook.com^
+||api.facebook.com^
+||connect.facebook.com^
+||badge.facebook.com^
+||api-read.facebook.com^
+!
+! Firebase
+!
+||firebaselogging.googleapis.com^
+||firebaseremoteconfig.googleapis.com^
+||firebaselogging-pa.googleapis.com^
+!
+! Imgur blocking
+!
+||turbo.adsbynimbus.com^
+||media.sabio.us^
+||tracking.epicgames.com^
+||cardlytics.com^
+||measuread.com^
+||comscoreresearch.com^
+||branch.io^
+@@||metrics.icloud.com^
+! @@||gstaticadssl.l.google.com^
+@@||qualtrics.com^
+@@||ocsp.apple.com^
+@@||urldefense.proofpoint.com^
+@@||app.box.com^
+@@||traffic.libsyn.com^
+@@||traffic.megaphone.fm^
+@@||codeload.github.com^
+!
+! URL Shorteners
+!
+@@||j.mp^
+@@||bit.ly^
+@@||ow.ly^
+@@||goo.gl^
+@@||amzn.to^
+@@||amzn.com^
+!
+! Bad filters
+!
+||hwcdn.net$badfilter
+||domain$badfilter
+!
+! Amp pages
+!
+@@||cdn-content.ampproject.org^
+@@||amp.cloudflare.com^
+!
+! AdGuardHome bad exceptions
+!
+||awin1.com^$important
+||app.adjust.com^$important
+||feed.adrelayer.com^$important
+||redirect.appmetrica.yandex.com^$important
+||nineto5mac-d.openx.net^$important
+||clkuk.tradedoubler.com^$important
+||str.hit.gemius.pl^$important
+||track.rutarget.ru^$important
+||pagead.l.doubleclick.net^$important
+||www.googleadservices.com^$important
+||cdn1.smartadserver.com^$important
+||acdn.adnxs.com^$important
+!
+! MMotti Regex
+!
+/^(.+[-_.])??ad[sxv]?[0-9]*[-_.]/
+/^(.+[-_.])??adse?rv(er?|ice)?s?[0-9]*[-.]/
+/^(.+[-_.])??telemetry[-.]/
+/^adim(age|g)s?[0-9]*[-_.]/
+/^adtrack(er|ing)?[0-9]*[-.]/
+/^advert(s|is(ing|ements?))?[0-9]*[-_.]/
+/^aff(iliat(es?|ion))?[-.]/
+/^analytics?[-.]/
+/^banners?[-.]/
+/^beacons?[0-9]*[-.]/
+/^count(ers?)?[0-9]*[-.]/
+/^pixels?[-.]/
+/^stat(s|istics)?[0-9]*[-.]/
+/^track(ers?|ing)?[0-9]*[-.]/
+/^traff(ic)?[-.]/
+/^xn--/
