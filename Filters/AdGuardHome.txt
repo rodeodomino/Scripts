@@ -1,6 +1,6 @@
 ! Title: Personal filters
 ! Description: Personal filters and exception rules for AdGuard Home
-! Last modified: 02 Jan 2020 19:45 UTC
+! Last modified: 05 Jan 2020 19:15 UTC
 !
 ||api.radar.io^
 ||beanstalk.37signals.com^
