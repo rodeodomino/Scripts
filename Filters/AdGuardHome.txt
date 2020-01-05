@@ -23,20 +23,29 @@
 !
 ||turbo.adsbynimbus.com^
 ||media.sabio.us^
+!
+! Misc blocking
+!
 ||tracking.epicgames.com^
 ||cardlytics.com^
 ||measuread.com^
 ||comscoreresearch.com^
 ||branch.io^
+!
+! Whitelists
+!
 @@||metrics.icloud.com^
+@@||ocsp.apple.com^
+!
 @@||gstaticadssl.l.google.com^
 @@||qualtrics.com^
-@@||ocsp.apple.com^
 @@||urldefense.proofpoint.com^
 @@||app.box.com^
+! Podcasts
 @@||traffic.libsyn.com^
 @@||traffic.megaphone.fm^
-@@||codeload.github.com^
+! NYMag
+@@||pixel.nymag.com^$important
 !
 ! URL Shorteners
 !
