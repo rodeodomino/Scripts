@@ -1,9 +1,6 @@
 ! Title: Personal filters
 ! Description: Personal filters and exception rules for AdGuard Home
-! Last modified: 06 Jan 2020 16:46 UTC
-!
-||api.radar.io^
-||beanstalk.37signals.com^
+! Last modified: 06 Jan 2020 16:56 UTC
 !
 ! Facebook
 !
@@ -19,13 +16,15 @@
 ||firebaseremoteconfig.googleapis.com^
 ||firebaselogging-pa.googleapis.com^
 !
-! Imgur blocking
+! Imgur ad blocking
 !
 ||turbo.adsbynimbus.com^
 ||media.sabio.us^
 !
 ! Misc blocking
 !
+||api.radar.io^
+||beanstalk.37signals.com^
 ||tracking.epicgames.com^
 ||cardlytics.com^
 ||measuread.com^
@@ -37,14 +36,23 @@
 @@||metrics.icloud.com^
 @@||ocsp.apple.com^
 !
+! Google fonts
+!
 @@||gstaticadssl.l.google.com^
+!
+! Work links
+!
 @@||qualtrics.com^
 @@||urldefense.proofpoint.com^
 @@||app.box.com^
+!
 ! Podcasts
+!
 @@||traffic.libsyn.com^
 @@||traffic.megaphone.fm^
+!
 ! NYMag
+!
 @@||pixel.nymag.com^$important
 !
 ! URL Shorteners
@@ -56,12 +64,17 @@
 @@||amzn.to^
 @@||amzn.com^
 !
+! Amp pages
+!
+@@||cdn-content.ampproject.org^
+@@||amp.cloudflare.com^
+!
 ! Bad filters
 !
 ||hwcdn.net$badfilter
 ||domain$badfilter
 !
-! AdGuard bad exceptions
+! AdGuard unnecessary exceptions
 !
 @@||awin1.com^|$badfilter
 @@||app.adjust.com^|$badfilter
@@ -75,26 +88,6 @@
 @@||www.googleadservices.com^|$badfilter
 @@||cdn1.smartadserver.com^|$badfilter
 @@||acdn.adnxs.com^|$badfilter
-!
-! Amp pages
-!
-@@||cdn-content.ampproject.org^
-@@||amp.cloudflare.com^
-!
-! AdGuardHome bad exceptions
-!
-!||awin1.com^$important
-!||app.adjust.com^$important
-!||feed.adrelayer.com^$important
-!||redirect.appmetrica.yandex.com^$important
-!||nineto5mac-d.openx.net^$important
-!||clkuk.tradedoubler.com^$important
-!||str.hit.gemius.pl^$important
-!||track.rutarget.ru^$important
-!||pagead.l.doubleclick.net^$important
-!||www.googleadservices.com^$important
-!||cdn1.smartadserver.com^$important
-!||acdn.adnxs.com^$important
 !
 ! MMotti Regex
 !
