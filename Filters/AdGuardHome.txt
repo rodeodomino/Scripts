@@ -1,6 +1,6 @@
 ! Title: Personal filters
 ! Description: Personal filters and exception rules for AdGuard Home
-! Last modified: 05 Jan 2020 19:15 UTC
+! Last modified: 06 Jan 2020 16:46 UTC
 !
 ||api.radar.io^
 ||beanstalk.37signals.com^
@@ -61,6 +61,21 @@
 ||hwcdn.net$badfilter
 ||domain$badfilter
 !
+! AdGuard bad exceptions
+!
+@@||awin1.com^|$badfilter
+@@||app.adjust.com^|$badfilter
+@@||feed.adrelayer.com^|$badfilter
+@@||redirect.appmetrica.yandex.com^|$badfilter
+@@||nineto5mac-d.openx.net^|$badfilter
+@@||clkuk.tradedoubler.com^|$badfilter
+@@||str.hit.gemius.pl^|$badfilter
+@@||track.rutarget.ru^|$badfilter
+@@||pagead.l.doubleclick.net^|$badfilter
+@@||www.googleadservices.com^|$badfilter
+@@||cdn1.smartadserver.com^|$badfilter
+@@||acdn.adnxs.com^|$badfilter
+!
 ! Amp pages
 !
 @@||cdn-content.ampproject.org^
@@ -68,18 +83,18 @@
 !
 ! AdGuardHome bad exceptions
 !
-||awin1.com^$important
-||app.adjust.com^$important
-||feed.adrelayer.com^$important
-||redirect.appmetrica.yandex.com^$important
-||nineto5mac-d.openx.net^$important
-||clkuk.tradedoubler.com^$important
-||str.hit.gemius.pl^$important
-||track.rutarget.ru^$important
-||pagead.l.doubleclick.net^$important
-||www.googleadservices.com^$important
-||cdn1.smartadserver.com^$important
-||acdn.adnxs.com^$important
+!||awin1.com^$important
+!||app.adjust.com^$important
+!||feed.adrelayer.com^$important
+!||redirect.appmetrica.yandex.com^$important
+!||nineto5mac-d.openx.net^$important
+!||clkuk.tradedoubler.com^$important
+!||str.hit.gemius.pl^$important
+!||track.rutarget.ru^$important
+!||pagead.l.doubleclick.net^$important
+!||www.googleadservices.com^$important
+!||cdn1.smartadserver.com^$important
+!||acdn.adnxs.com^$important
 !
 ! MMotti Regex
 !
