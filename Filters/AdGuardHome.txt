@@ -80,7 +80,7 @@
 @@||app.adjust.com^|$badfilter
 @@||feed.adrelayer.com^|$badfilter
 @@||redirect.appmetrica.yandex.com^|$badfilter
-@@||nineto5mac-d.openx.net^|$badfilter
+!@@||nineto5mac-d.openx.net^|$badfilter
 @@||clkuk.tradedoubler.com^|$badfilter
 @@||str.hit.gemius.pl^|$badfilter
 @@||track.rutarget.ru^|$badfilter
@@ -88,22 +88,3 @@
 @@||www.googleadservices.com^|$badfilter
 @@||cdn1.smartadserver.com^|$badfilter
 @@||acdn.adnxs.com^|$badfilter
-!
-! MMotti Regex
-!
-/^(.+[-_.])??ad[sxv]?[0-9]*[-_.]/
-/^(.+[-_.])??adse?rv(er?|ice)?s?[0-9]*[-.]/
-/^(.+[-_.])??telemetry[-.]/
-/^adim(age|g)s?[0-9]*[-_.]/
-/^adtrack(er|ing)?[0-9]*[-.]/
-/^advert(s|is(ing|ements?))?[0-9]*[-_.]/
-/^aff(iliat(es?|ion))?[-.]/
-/^analytics?[-.]/
-/^banners?[-.]/
-/^beacons?[0-9]*[-.]/
-/^count(ers?)?[0-9]*[-.]/
-/^pixels?[-.]/
-/^stat(s|istics)?[0-9]*[-.]/
-/^track(ers?|ing)?[0-9]*[-.]/
-/^traff(ic)?[-.]/
-/^xn--/
