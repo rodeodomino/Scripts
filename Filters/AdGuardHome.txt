@@ -1,6 +1,6 @@
 ! Title: Personal filters
 ! Description: Personal filters and exception rules for AdGuard Home
-! Last modified: 15 Jan 2020 02:43 UTC
+! Last modified: 18 Jan 2020 21:32 UTC
 !
 ! Facebook
 !
@@ -31,7 +31,7 @@
 ||comscoreresearch.com^
 ||branch.io^
 !
-! Whitelists
+! Apple whitelists
 !
 @@||metrics.icloud.com^
 @@||ocsp.apple.com^
@@ -50,6 +50,7 @@
 !
 @@||traffic.libsyn.com^
 @@||traffic.megaphone.fm^
+@@||traffic.omny.fm^
 !
 ! NYMag
 !
@@ -68,6 +69,10 @@
 !
 @@||cdn-content.ampproject.org^
 @@||amp.cloudflare.com^
+!
+! Other whitelists
+!
+@@||chowhound.com^
 !
 ! Bad filters
 !
