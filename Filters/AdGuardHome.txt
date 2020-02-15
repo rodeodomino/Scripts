@@ -81,6 +81,7 @@
 !
 ! AdGuard unnecessary exceptions
 !
+@@||cj.dotomi.com^|$badfilter
 @@||awin1.com^|$badfilter
 @@||app.adjust.com^|$badfilter
 @@||feed.adrelayer.com^|$badfilter
