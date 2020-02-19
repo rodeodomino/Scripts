@@ -1,6 +1,6 @@
 ! Title: Personal filters
 ! Description: Personal filters and exception rules for AdGuard Home
-! Last modified: 18 Jan 2020 21:32 UTC
+! Last modified: 19 Feb 2020 19:09 UTC
 !
 ! Facebook
 !
@@ -70,27 +70,29 @@
 @@||cdn-content.ampproject.org^
 @@||amp.cloudflare.com^
 !
+! Email links
+!
+@@||link.morningbrew.com^$important
+!
 ! Other whitelists
 !
-@@||chowhound.com^
-!
-! Bad filters
-!
-||hwcdn.net$badfilter
-||domain$badfilter
+@@||chowhound.com^$important
+@@||api.foursquare.com^$important
+@@||www.newsobserver.com^$important
+@@||www.cultofmac.com^$important
 !
 ! AdGuard unnecessary exceptions
 !
-@@||cj.dotomi.com^|$badfilter,important
-@@||awin1.com^|$badfilter,important
-@@||app.adjust.com^|$badfilter,important
-@@||feed.adrelayer.com^|$badfilter,important
-@@||redirect.appmetrica.yandex.com^|$badfilter,important
-@@||nineto5mac-d.openx.net^|$badfilter,important
-@@||clkuk.tradedoubler.com^|$badfilter,important
-@@||str.hit.gemius.pl^|$badfilter,important
-@@||track.rutarget.ru^|$badfilter,important
-@@||pagead.l.doubleclick.net^|$badfilter,important
-@@||www.googleadservices.com^|$badfilter,important
-@@||cdn1.smartadserver.com^|$badfilter,important
-@@||acdn.adnxs.com^|$badfilter,important
+||cj.dotomi.com^$important
+||awin1.com^$important
+||app.adjust.com^$important
+||feed.adrelayer.com^$important
+||redirect.appmetrica.yandex.com^$important
+||nineto5mac-d.openx.net^$important
+||clkuk.tradedoubler.com^$important
+||str.hit.gemius.pl^$important
+||track.rutarget.ru^$important
+||pagead.l.doubleclick.net^$important
+||www.googleadservices.com^$important
+||cdn1.smartadserver.com^$important
+||acdn.adnxs.com^$important
