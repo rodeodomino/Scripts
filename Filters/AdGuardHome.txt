@@ -1,8 +1,8 @@
 ! Title: Personal filters
 ! Description: Personal filters and exception rules for AdGuard Home
-! Last modified: 19 Feb 2020 19:09 UTC
+! Last modified: 27 Mar 2020 19:04 UTC
 !
-! Facebook
+! ---------- Facebook ----------
 !
 ||graph.facebook.com^
 ||api.facebook.com^
@@ -10,53 +10,66 @@
 ||badge.facebook.com^
 ||api-read.facebook.com^
 !
-! Firebase
+! ---------- Firebase ----------
 !
 ||firebaselogging.googleapis.com^
 ||firebaseremoteconfig.googleapis.com^
 ||firebaselogging-pa.googleapis.com^
+||fcmtoken.googleapis.com^
 !
-! Imgur ad blocking
+! ---------- Imgur ----------
 !
 ||turbo.adsbynimbus.com^
 ||media.sabio.us^
 !
-! Misc blocking
+! ---------- Reddit ----------
 !
-||api.radar.io^
-||beanstalk.37signals.com^
+||e.reddit.com^
+!
+! ---------- Twitter ----------
+!
+||e.reddit.com^
+!
+! ---------- Epic Games ----------
+!
 ||tracking.epicgames.com^
-||cardlytics.com^
-||measuread.com^
-||comscoreresearch.com^
-||branch.io^
+||tracking.unrealengine.com^
 !
-! Apple whitelists
+! ---------- Apple ----------
 !
 @@||metrics.icloud.com^
 @@||ocsp.apple.com^
+||comscoreresearch.com^
 !
-! Google fonts
+! ---------- Misc. Others ----------
+!
+||api.radar.io^
+||cardlytics.com^
+||measuread.com^
+||branch.io^
+!
+! ---------- Google Fonts ----------
 !
 @@||gstaticadssl.l.google.com^
 !
-! Work links
+! ---------- Work ----------
 !
 @@||qualtrics.com^
 @@||urldefense.proofpoint.com^
 @@||app.box.com^
+||beanstalk.37signals.com^
 !
-! Podcasts
+! ---------- Podcasts ----------
 !
 @@||traffic.libsyn.com^
 @@||traffic.megaphone.fm^
 @@||traffic.omny.fm^
 !
-! NYMag
+! ---------- NYMag ----------
 !
 @@||pixel.nymag.com^$important
 !
-! URL Shorteners
+! ---------- URL Shorteners ----------
 !
 @@||j.mp^
 @@||bit.ly^
@@ -65,23 +78,12 @@
 @@||amzn.to^
 @@||amzn.com^
 !
-! Amp pages
+! ---------- AMP Pages ----------
 !
 @@||cdn-content.ampproject.org^
 @@||amp.cloudflare.com^
 !
-! Email links
-!
-@@||link.morningbrew.com^$important
-!
-! Other whitelists
-!
-@@||chowhound.com^$important
-@@||api.foursquare.com^$important
-@@||www.newsobserver.com^$important
-@@||www.cultofmac.com^$important
-!
-! AdGuard unnecessary exceptions
+! ---------- AdGuard Unnecessary Exceptions ----------
 !
 ||cj.dotomi.com^$important
 ||awin1.com^$important
