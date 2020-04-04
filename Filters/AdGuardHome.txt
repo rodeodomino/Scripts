@@ -1,6 +1,6 @@
 ! Title: Personal filters
 ! Description: Personal filters and exception rules for AdGuard Home
-! Last modified: 27 Mar 2020 19:04 UTC
+! Last modified: 04 Apr 2020 16:12 UTC
 !
 ! ---------- Facebook ----------
 !
@@ -16,11 +16,13 @@
 ||firebaseremoteconfig.googleapis.com^
 ||firebaselogging-pa.googleapis.com^
 ||fcmtoken.googleapis.com^
+/^firebase/
 !
 ! ---------- Imgur ----------
 !
 ||turbo.adsbynimbus.com^
 ||media.sabio.us^
+||basis.net^
 !
 ! ---------- Reddit ----------
 !
@@ -47,6 +49,8 @@
 ||cardlytics.com^
 ||measuread.com^
 ||branch.io^
+||onelink.me^
+||campaign.adobe.com^
 !
 ! ---------- Google Fonts ----------
 !
