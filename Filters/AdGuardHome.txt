@@ -17,6 +17,7 @@
 ||firebaselogging-pa.googleapis.com^
 ||fcmtoken.googleapis.com^
 /^firebase/
+@@||firebasehostingproxy.page.link^$important
 !
 ! ---------- Imgur ----------
 !
