@@ -1,6 +1,6 @@
 ! Title: Personal filters
 ! Description: Personal filters and exception rules for AdGuard Home
-! Last modified: 01 May 2020 13:49 UTC
+! Last modified: 07 Aug 2020 13:49 UTC
 !
 ! ---------- Facebook ----------
 !
@@ -24,6 +24,7 @@
 ||turbo.adsbynimbus.com^
 ||media.sabio.us^
 ||basis.net^
+||aarki.net^
 !
 ! ---------- Reddit ----------
 !
@@ -52,6 +53,8 @@
 ||branch.io^
 ||onelink.me^
 ||campaign.adobe.com^
+||uoads.mspremium.io^$important
+@@||ovp.iris.tv^$important
 !
 ! ---------- Google Fonts ----------
 !
