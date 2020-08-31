@@ -1,6 +1,6 @@
 ! Title: Personal filters
 ! Description: Personal filters and exception rules for AdGuard Home
-! Last modified: 07 Aug 2020 13:49 UTC
+! Last modified: 31 Aug 2020 02:05 UTC
 !
 ! ---------- Facebook ----------
 !
@@ -32,7 +32,7 @@
 !
 ! ---------- Twitter ----------
 !
-||e.reddit.com^
+!
 !
 ! ---------- Epic Games ----------
 !
@@ -52,6 +52,7 @@
 ||measuread.com^
 ||branch.io^
 ||onelink.me^
+||app.link^
 ||campaign.adobe.com^
 ||uoads.mspremium.io^$important
 @@||ovp.iris.tv^$important
@@ -79,17 +80,17 @@
 !
 ! ---------- URL Shorteners ----------
 !
-@@||j.mp^
-@@||bit.ly^
-@@||ow.ly^
-@@||goo.gl^
-@@||amzn.to^
-@@||amzn.com^
+!@@||j.mp^
+!@@||bit.ly^
+!@@||ow.ly^
+!@@||goo.gl^
+!@@||amzn.to^
+!@@||amzn.com^
 !
 ! ---------- AMP Pages ----------
 !
-@@||cdn-content.ampproject.org^
-@@||amp.cloudflare.com^
+!@@||cdn-content.ampproject.org^
+!@@||amp.cloudflare.com^
 !
 ! ---------- AdGuard Unnecessary Exceptions ----------
 !
