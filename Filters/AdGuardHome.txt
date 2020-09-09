@@ -1,6 +1,6 @@
 ! Title: Personal filters
 ! Description: Personal filters and exception rules for AdGuard Home
-! Last modified: 31 Aug 2020 02:05 UTC
+! Last modified: 09 Sep 2020 15:03 UTC
 !
 ! ---------- Facebook ----------
 !
@@ -10,13 +10,19 @@
 ||badge.facebook.com^
 ||api-read.facebook.com^
 !
-! ---------- Firebase ----------
+! ---------- Firebase/Google ----------
 !
+||crashlytics.com^
+||firebase.io^
 ||firebaselogging.googleapis.com^
 ||firebaseremoteconfig.googleapis.com^
 ||firebaselogging-pa.googleapis.com^
 ||fcmtoken.googleapis.com^
-/^firebase/
+||firebase.google.com^
+||firebase-dot-google-developers.appspot.com^
+||firebasedynamiclinks-ipv4.googleapis.com
+||firebasedynamiclinks-ipv6.googleapis.com
+!/^firebase/
 @@||firebasehostingproxy.page.link^$important
 !
 ! ---------- Imgur ----------
@@ -44,6 +50,12 @@
 !@@||metrics.icloud.com^
 @@||ocsp.apple.com^
 ||comscoreresearch.com^
+||iadsdk.apple.com^
+!
+! ---------- Mobile Analytics ----------
+!
+||launches.appsflyer.com^$important
+||flurry.com^
 !
 ! ---------- Misc. Others ----------
 !
@@ -55,6 +67,7 @@
 ||app.link^
 ||campaign.adobe.com^
 ||uoads.mspremium.io^$important
+||sascdn.com^
 @@||ovp.iris.tv^$important
 !
 ! ---------- Google Fonts ----------
@@ -78,20 +91,6 @@
 !
 @@||pixel.nymag.com^$important
 !
-! ---------- URL Shorteners ----------
-!
-!@@||j.mp^
-!@@||bit.ly^
-!@@||ow.ly^
-!@@||goo.gl^
-!@@||amzn.to^
-!@@||amzn.com^
-!
-! ---------- AMP Pages ----------
-!
-!@@||cdn-content.ampproject.org^
-!@@||amp.cloudflare.com^
-!
 ! ---------- AdGuard Unnecessary Exceptions ----------
 !
 ||cj.dotomi.com^$important
@@ -107,3 +106,4 @@
 ||www.googleadservices.com^$important
 ||cdn1.smartadserver.com^$important
 ||acdn.adnxs.com^$important
+||imasdk.googleapis.com^$important
