@@ -1,14 +1,14 @@
 ! Title: Personal filters
 ! Description: Personal filters and exception rules for AdGuard Home
-! Last modified: 09 Sep 2020 15:03 UTC
+! Last modified: 17 Sep 2020 15:03 UTC
 !
 ! ---------- Facebook ----------
 !
 ||graph.facebook.com^
-||api.facebook.com^
-||connect.facebook.com^
-||badge.facebook.com^
-||api-read.facebook.com^
+!||api.facebook.com^
+!||connect.facebook.com^
+!||badge.facebook.com^
+!||api-read.facebook.com^
 !
 ! ---------- Firebase/Google ----------
 !
