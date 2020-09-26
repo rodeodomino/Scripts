@@ -1,6 +1,6 @@
 ! Title: Personal filters
 ! Description: Personal filters and exception rules for AdGuard Home
-! Last modified: 17 Sep 2020 15:03 UTC
+! Last modified: 26 Sep 2020 08:37 UTC
 !
 ! ---------- Facebook ----------
 !
@@ -69,6 +69,7 @@
 ||uoads.mspremium.io^$important
 ||sascdn.com^
 @@||ovp.iris.tv^$important
+||https://app-measurement.com/sdk-exp^$important
 !
 ! ---------- Google Fonts ----------
 !
