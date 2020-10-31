@@ -1,6 +1,6 @@
 ! Title: Personal filters
 ! Description: Personal filters and exception rules for AdGuard Home
-! Last modified: 26 Sep 2020 08:37 UTC
+! Last modified: 31 Oct 2020 19:26 UTC
 !
 ! ---------- Facebook ----------
 !
@@ -22,15 +22,18 @@
 ||firebase-dot-google-developers.appspot.com^
 ||firebasedynamiclinks-ipv4.googleapis.com
 ||firebasedynamiclinks-ipv6.googleapis.com
+||crashlyticsreports-pa.googleapis.com
+||firebaseinstallations.googleapis.com
 !/^firebase/
 @@||firebasehostingproxy.page.link^$important
 !
 ! ---------- Imgur ----------
 !
-||turbo.adsbynimbus.com^
+||adsbynimbus.com^
 ||media.sabio.us^
 ||basis.net^
 ||aarki.net^
+||in.qbk1.com^
 !
 ! ---------- Reddit ----------
 !
@@ -66,9 +69,10 @@
 ||onelink.me^
 ||app.link^
 ||campaign.adobe.com^
-||uoads.mspremium.io^$important
+||uoads.mspremium.io^
 ||sascdn.com^
 @@||ovp.iris.tv^$important
+@@||o0bc.com^
 ||https://app-measurement.com/sdk-exp^$important
 !
 ! ---------- Google Fonts ----------
