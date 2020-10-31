@@ -57,7 +57,7 @@
 !
 ! ---------- Mobile Analytics ----------
 !
-||launches.appsflyer.com^$important
+||launches.appsflyer.com^
 ||flurry.com^
 !
 ! ---------- Misc. Others ----------
