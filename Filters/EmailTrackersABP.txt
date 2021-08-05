@@ -1,7 +1,7 @@
 ! Title: Email Trackers ABP List
 ! Description: Email trackers block list for uBlock Origin
 ! Based on Ugly Email's original list
-! Last modified: 1 Aug 2021 15:19 UTC
+! Last modified: 5 Aug 2021 14:48 UTC
 !
 !MailChimp@@=\/track\/open\.php\?u=|list-manage\.com
 /track/open.php?u=
@@ -18,7 +18,6 @@ mailfoogae.appspot.com
 !Bananatag@@=bl-1\.com
 bl-1.com
 !Yesware@@=t\.yesware\.com
-yesware.com/trk
 yesware.com/t
 !Postmark@@=pstmrk\.it\/open
 pstmark.it
@@ -55,7 +54,6 @@ open.convertkit-mail*.com
 !Polymail@@=polymail\.io(\/v2\/z\/)?|share\.polymail\.io
 polymail.io/*/z
 share.polymail.io
-polymail.io
 !YAMM@@=yamm-track\.appspot
 yamm-track.appspot
 !GetResponse@@=\/open\.html\?x=
@@ -107,9 +105,9 @@ hubspotstarter.net
 t.hubspotemail
 t.hubspotfree
 t.hsmsdd
-/e2t/to/
-/e2t/c/
-/e2t/o/
+/e2t/to/*
+/e2t/c/*
+/e2t/o/*
 !Mailspring@@=getmailspring\.com\/open
 getmailspring.com/open
 !Mandrill@@=mandrillapp\.com\/track
@@ -132,8 +130,8 @@ sailthru.com/trk
 !PowerInbox - RevenueSTripe
 googleusercontent.com/proxy/*#*rs-stripe
 !TrackApp@@=trackapp\.io\/static\/img\/track\.gif|trackapp\.io\/[a-z]\/
-trackapp.io/static/img/track.gif
-trackapp.io/*/
+trackapp.io/*/track.gif
+trackapp\.io\/[a-z]\/$image
 !Sendinblue@@=sendibw{2}\.com\/track\/
 sendibww.com/track/
 !Segment@@=email\.segment\.com\/e\/o\/
@@ -144,18 +142,15 @@ salesloftlinks.com/t/
 !SalesHandy@@=saleshandy\.com\/web\/email\/countopened
 saleshandy.com/web/email/countopened
 !Shopify@@=\/tools\/emails\/open\/
-/tools/emails/open/
+/tools/emails/open/*
 !Amazon SES@@=\/\w*I0\/\w{16}-\w{8}-\w{4}
 googleusercontent.com/proxy/*#*I0/
 ! GMelius email tracking
 gml.email
 ! DidTheyReadIt.com email tracking
 xpostmail.com
-! FullContact email tracking
-fullcontact.com/wf/open
 ! Magento email tracking
 magento.com/trk
-magento.com/wf/open
 ! Insightly email tracking
 ! https://support.insight.ly/hc/en-us/articles/360004027674-How-to-enable-or-disable-email-tracking
 insgly.net/api/trk
@@ -163,7 +158,6 @@ insgly.net/api/trk
 ! https://support.pipedrive.com/hc/en-us/articles/115005541949-Email-Tracking
 ! PipeDrive sometimes uses Nylas API for open tracking
 api.nylas.com/open/
-email.pipedrive.com/wf/open
 ! ConstantContact email tracking
 rs6.net/on.jsp
 constantcontact.com/images/p1x1.gif
@@ -176,15 +170,13 @@ constantcontact.com/images/p1x1.gif
 www.google.com/appserve/mkt/img/*.gif
 ! Adobe audience manager (demdex)
 ! demdex.net is already blocked with Peter's list
-demdex.net/*^$image
+demdex.net^$image
 ! IC
 icptrack.com/icp/track
 ! MTA
 ping.answerbook.com
 ! IB
 mkt4477.com/open
-! GN
-email81.com
 ! SV
 strongview.com/t
 ! GM
