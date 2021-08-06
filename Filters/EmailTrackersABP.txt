@@ -1,18 +1,18 @@
 ! Title: Email Trackers ABP List
 ! Description: Email trackers block list for uBlock Origin
 ! Based on Ugly Email's original list
-! Last modified: 5 Aug 2021 14:48 UTC
+! Last modified: 6 Aug 2021 15:26 UTC
 !
 !MailChimp@@=\/track\/open\.php\?u=|list-manage\.com
 /track/open.php?u=
 !SendGrid@@=\/wf\/open\?upn=
 /wf/open
 sendgrid.com/trk
-ct.sendgrid.net/mpss/o/*.gif
+!ct.sendgrid.net/mpss/o/*.gif
 !Drip@@=dripemail2
 dripemail2
 !Mailgun@@=\/o\/
-googleusercontent.com/proxy/*#*/o/
+/o/*
 !Streak@@=mailfoogae\.appspot\.com
 mailfoogae.appspot.com
 !Bananatag@@=bl-1\.com
@@ -73,25 +73,25 @@ getoutreach.com/api/mailings/opened
 outrch.com/api/mailings/opened
 whosen.com/api/mailings/opened
 !Intercom@@=\/\/(.*).intercom-\w+.com(\/via)?\/[a-z]\/
-googleusercontent.com/proxy/*#*intercom-*.com/via/
-googleusercontent.com/proxy/*#*intercom-*.com/q/
+intercom-*.com/via/
+intercom-*.com/q/
 !Mailjet@@=\/\/links\..*\/oo\/|\.mjt\.lu\/|\/oo\/.*\.gif
-googleusercontent.com/proxy/*#*/oo/
+/oo/*
 .mjt.lu/
 !Nethunt@@=nethunt\.com\/api\/v1\/track\/email\/
 nethunt.com/api/v1/track/email/
 !Superhuman@@=r\.superhuman\.com
 r.superhuman.com/*.gif
 !ConvertKit@@=convertkit-mail\.com\/o\/
-convertkit-mail.com/o/
+!convertkit-mail.com/o/
 !Apple@@=apple\.com\/report\/2\/its_mail_sf
 apple.com/report/2/its_mail_sf
 !Fast Mail@@=list-manage.com/track/open\.php
 !duplicate
 !list-manage.com/track/open.php
 !Fresh Mail@@=mail\.(great-news|mailnews)\.pl\/o\/.*
-mail.great-news.pl/o/
-mail.mailnews.pl/o/
+!mail.great-news.pl/o/
+!mail.mailnews.pl/o/
 !ActiveCampaign@@=/lt\.php(.*)\?l=open
 /lt.php*?l=open
 !AWeber@@=openrate\.aweber.com
@@ -107,7 +107,7 @@ t.hubspotfree
 t.hsmsdd
 /e2t/to/*
 /e2t/c/*
-/e2t/o/*
+!/e2t/o/*
 !Mailspring@@=getmailspring\.com\/open
 getmailspring.com/open
 !Mandrill@@=mandrillapp\.com\/track
@@ -127,15 +127,15 @@ beacon.krxd.net
 infinite-stream-5194.herokuapp.com/pixel/
 !Sailthru@@=sailthru\.com\/trk
 sailthru.com/trk
-!PowerInbox - RevenueSTripe
-googleusercontent.com/proxy/*#*rs-stripe
+!PowerInbox - RevenueStripe
+rs-stripe
 !TrackApp@@=trackapp\.io\/static\/img\/track\.gif|trackapp\.io\/[a-z]\/
 trackapp.io/*/track.gif
 trackapp\.io\/[a-z]\/$image
 !Sendinblue@@=sendibw{2}\.com\/track\/
 sendibww.com/track/
 !Segment@@=email\.segment\.com\/e\/o\/
-email.segment.com/e/o/
+!email.segment.com/e/o/
 !SalesLoft@@=salesloft\.com\/email_trackers|salesloftlinks\.com\/t\/
 salesloft.com/email_trackers
 salesloftlinks.com/t/
@@ -144,7 +144,7 @@ saleshandy.com/web/email/countopened
 !Shopify@@=\/tools\/emails\/open\/
 /tools/emails/open/*
 !Amazon SES@@=\/\w*I0\/\w{16}-\w{8}-\w{4}
-googleusercontent.com/proxy/*#*I0/
+I0/
 ! GMelius email tracking
 gml.email
 ! DidTheyReadIt.com email tracking
@@ -186,3 +186,13 @@ ec2-52-26-194-35.us-west-2.compute.amazonaws.com/x
 ! EasyPrivacy
 /o.gif?
 /imp?*&li=
+/t.gif?
+/hit.ashx?
+.com/_.gif?
+/shoutout.wix.com/*$image
+/rover.ebay.com/roveropen/*
+/track.gif^
+/pub/as?_ri_=$image
+.bluekai.com/*?e_id_
+/pippio.
+wizrocketmail.net/r
