@@ -1,7 +1,7 @@
 ! Title: Email Trackers ABP List
 ! Description: Email trackers block list for uBlock Origin
 ! Based on Ugly Email's original list Copyright (c) 2019 OneClick Lab: https://github.com/OneClickLab/ugly-email-extension/blob/master/LICENSE
-! Last modified: 6 Aug 2021 15:26 UTC
+! Last modified: 9 Aug 2021 01:22 UTC
 !
 !MailChimp@@=\/track\/open\.php\?u=|list-manage\.com
 /track/open.php?u=
@@ -128,7 +128,7 @@ infinite-stream-5194.herokuapp.com/pixel/
 !Sailthru@@=sailthru\.com\/trk
 sailthru.com/trk
 !PowerInbox - RevenueStripe
-rs-stripe
+rs-stripe*
 !TrackApp@@=trackapp\.io\/static\/img\/track\.gif|trackapp\.io\/[a-z]\/
 trackapp.io/*/track.gif
 trackapp\.io\/[a-z]\/$image
