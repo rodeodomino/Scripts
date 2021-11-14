@@ -1,27 +1,37 @@
 ! Title: Email Trackers ABP List
 ! Description: Email trackers block list for uBlock Origin
-! Based on Ugly Email's original list Copyright (c) 2019 OneClick Lab: https://github.com/OneClickLab/ugly-email-extension/blob/master/LICENSE
-! Last modified: 27 Aug 2021 03:42 UTC
+! Last modified: 14 Nov 2021 06:39 UTC
+! License: http://creativecommons.org/licenses/by/3.0/
+! Attribution: Original lists from: 
+!                                 UglyEmail https://github.com/OneClickLab/ugly-email-trackers
+!                                 Leavemealone-app https://github.com/leavemealone-app/email-trackers
 !
-!MailChimp@@=\/track\/open\.php\?u=|list-manage\.com
+
+! MailChimp
 /track/open.php?u=
-!SendGrid@@=\/wf\/open\?upn=
+
+! Sendgrid
 /wf/open
-sendgrid.com/trk
-!ct.sendgrid.net/mpss/o/*.gif
-!Drip@@=dripemail2
+/trk
+/o/*$image
+
+! Drip
 dripemail2
-!Mailgun@@=\/o\/
-/o/*$domain=googleusercontent.com
-!Streak@@=mailfoogae\.appspot\.com
+
+! Streak
 mailfoogae.appspot.com
-!Bananatag@@=bl-1\.com
+
+! Bananatag
 bl-1.com
-!Yesware@@=t\.yesware\.com
+
+! Yesware
 yesware.com/t
-!Postmark@@=pstmrk\.it\/open
-pstmark.it
-!Sidekick@@=t\.signauxtrois\.com|sidekickopen
+t.yesware.com
+
+! Postmark
+pstmark.it/open
+
+! Hubspot/Sidekick
 t.signaux*.com
 track.getsidekick.com
 t.sigopn*.com
@@ -29,161 +39,213 @@ t.senal*.com
 t.signale*.com
 t.strk*.email
 t.sidekickopen*.com
-!TinyLetter@@=tinyletterapp\.com
+
+! TinyLetter
 tinyletterapp.com
-!MixMax@@=(email|track)\.mixmax\.com|mixmax\.com\/api\/track\/|mixmax\.com\/e\/o
+
+! MixMax
 mixmax.com/e/o
 email.mixmax.com
 mixmax.com/api/track/
 track.mixmax.com
-!MailTrack@@=mltrk\.io\/pixel\/|mailtrack\.io\/trace\/mail\/
+
+! MailTrack
 mailtrack.io/trace
 mltrk.io/pixel/
-!ToutApp@@=toutapp\.com
+
+! Marketo/ToutApp
 toutapp.com
-!Litmus@@=emltrk\.com
-emltrk.com
-!Boomerang@@=mailstat\.us\/tr
+
+! Litmus
+emltrk.com^$image
+
+! Boomerang
 mailstat.us/tr
-!ContactMonkey@@=contactmonkey\.com\/api\/v1\/tracker
+
+! ContactMonkey
 contactmonkey.com/api/*/tracker
-!Cirrus Insight@@=tracking\.cirrusinsight\.com
+
+! Cirrus Insight
 tracking.cirrusinsight.com
-!ConvertKit@@=\/\/open\.convertkit-mail[1-9]\.com
-open.convertkit-mail*.com
-!Polymail@@=polymail\.io(\/v2\/z\/)?|share\.polymail\.io
+
+! ConvertKit
+open.convertkit*.com^$image
+
+! Polymail
 polymail.io/*/z
 share.polymail.io
-!YAMM@@=yamm-track\.appspot
+
+! YAMM
 yamm-track.appspot
-!GetResponse@@=\/open\.html\?x=
+
+! GetResponse
 /open.html?x=
-!phpList@@=\/ut\.php\?u=
+
+! phpList
 /ut.php?u=
-!Close.io@@=close\.io\/email_opened
+
+! Close.io
 close.io/email_opened
-!Constant Contact@@=\.net\/on\.jsp\?
+
+! Constant Contact
 .net/on.jsp?
-!Marketo@@=\/trk\?t=
-/trk?t=
-!Return Path@@=returnpath\.net\/pixel\.gif
+rs6.net/on.jsp
+constantcontact.com/images/p1x1.gif
+
+!Return Path
 returnpath.net/pixel.gif
-!Outreach@@=(outrch|whosen|getoutreach)\.com\/api\/mailings\/opened
+
+! Outreach
 getoutreach.com/api/mailings/opened
 outrch.com/api/mailings/opened
 whosen.com/api/mailings/opened
-!Intercom@@=\/\/(.*).intercom-\w+.com(\/via)?\/[a-z]\/
+
+! Intercom
 intercom-*.com/via/
 intercom-*.com/q/
-!Mailjet@@=\/\/links\..*\/oo\/|\.mjt\.lu\/|\/oo\/.*\.gif
-/oo/*
+via.intercom-mail-.com/o
+
+! Mailjet
+/links.*/oo/
 .mjt.lu/
-!Nethunt@@=nethunt\.com\/api\/v1\/track\/email\/
-nethunt.com/api/v1/track/email/
-!Superhuman@@=r\.superhuman\.com
+
+! Nethunt
+nethunt.com/api/*/track/email/
+
+! Superhuman
 r.superhuman.com/*.gif
-!ConvertKit@@=convertkit-mail\.com\/o\/
-!convertkit-mail.com/o/
-!Apple@@=apple\.com\/report\/2\/its_mail_sf
+
+! Apple
 apple.com/report/2/its_mail_sf
-!Fast Mail@@=list-manage.com/track/open\.php
-!duplicate
-!list-manage.com/track/open.php
-!Fresh Mail@@=mail\.(great-news|mailnews)\.pl\/o\/.*
-!mail.great-news.pl/o/
-!mail.mailnews.pl/o/
-!ActiveCampaign@@=/lt\.php(.*)\?l=open
+
+! Fresh Mail
+mail.great-news.pl/o/
+mail.mailnews.pl/o/
+
+! ActiveCampaign
 /lt.php*?l=open
-!AWeber@@=openrate\.aweber.com
+
+! AWeber
 openrate.aweber.com
-!Getnotify@@=email81\.com/case
+
+! Getnotify
 email81.com/case
-!GrowthDot@@=growthdot\.com\/api\/mail-tracking
+
+! GrowthDot
 growthdot.com/api/mail-tracking
-!Hubspot@@=t\.hubspotemail\.net|hubspotstarter\.net|t\.(hubspotemail|hubspotfree|signaux|senal|signale|sidekickopen|sigopn|hsmsdd)|t.strk\d{2}\.email|track\.getsidekick\.com|\/e2t\/(o|c|to)\/
+
+! Hubspot
 hubspotstarter.net
 t.hubspotemail
 t.hubspotfree
 t.hsmsdd
 /e2t/to/*
 /e2t/c/*
-!/e2t/o/*
-!Mailspring@@=getmailspring\.com\/open
+/e2t/o/*
+
+! Mailspring
 getmailspring.com/open
-!Mandrill@@=mandrillapp\.com\/track
+
+! Mandrill
 mandrillapp.com/track
 mandrill.*/track/open.php
 list-manage*.com/track/open
-!Mixpanel@@=mixpanel\.com\/(trk|track)
-mixpanel.com/trk
+
+! Mixpanel
+! mixpanel.com/trk
 mixpanel.com/track
-!SparkPost@@=go\.sparkpostmail2\.com\/q\/
+
+! SparkPost
 go.sparkpostmail2.com/q/
-!Salesforce@@=\/\/click\..*\/open\.aspx|salesforceiq\.com\/t.png|beacon\.krxd\.net
+
+! Salesforce
 click.*/open.aspx
 salesforceiq.com/t.png
 beacon.krxd.net
-!PersistIQ@@=infinite-stream-5194\.herokuapp\.com\/pixel\/
+
+! PersistIQ
 infinite-stream-5194.herokuapp.com/pixel/
-!Sailthru@@=sailthru\.com\/trk
-sailthru.com/trk
-!PowerInbox - RevenueStripe
+
+! Sailthru
+! sailthru.com/trk
+
+! PowerInbox - RevenueStripe
 rs-stripe*
-!TrackApp@@=trackapp\.io\/static\/img\/track\.gif|trackapp\.io\/[a-z]\/
+
+! TrackApp
 trackapp.io/*/track.gif
 trackapp\.io\/[a-z]\/$image
-!Sendinblue@@=sendibw{2}\.com\/track\/
+
+!Sendinblue
 sendibww.com/track/
-!Segment@@=email\.segment\.com\/e\/o\/
-!email.segment.com/e/o/
-!SalesLoft@@=salesloft\.com\/email_trackers|salesloftlinks\.com\/t\/
+
+! Segment
+email.segment.com/e/o/
+
+! SalesLoft
 salesloft.com/email_trackers
 salesloftlinks.com/t/
-!SalesHandy@@=saleshandy\.com\/web\/email\/countopened
+
+! SalesHandy
 saleshandy.com/web/email/countopened
-!Shopify@@=\/tools\/emails\/open\/
+
+! Shopify
 /tools/emails/open/*
-!Amazon SES@@=\/\w*I0\/\w{16}-\w{8}-\w{4}
+
+! Amazon SES
 I0/
+awstrack.me
+
 ! GMelius email tracking
 gml.email
+
 ! DidTheyReadIt.com email tracking
 xpostmail.com
+
 ! Magento email tracking
-magento.com/trk
+! magento.com/trk
+
 ! Insightly email tracking
 ! https://support.insight.ly/hc/en-us/articles/360004027674-How-to-enable-or-disable-email-tracking
-insgly.net/api/trk
+! insgly.net/api/trk
+
 ! PipeDrive "read receipt" tracking pixel
 ! https://support.pipedrive.com/hc/en-us/articles/115005541949-Email-Tracking
 ! PipeDrive sometimes uses Nylas API for open tracking
 api.nylas.com/open/
-! ConstantContact email tracking
-rs6.net/on.jsp
-constantcontact.com/images/p1x1.gif
+
 ! Oracle Eloqua email tracking
 ! https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/Help/Emails/CalculatingEmailOpens.htm
 ! https://media.superhumanapp.com/images/_/https://s1259914507.t.en25.com/e/FooterImages/FooterImage1?elq=34089dc840e54f10ba9fb212d35f0cf2&siteid=1259914507
 /e/FooterImages/FooterImage1
 ?elq=
+
 ! Google email marketing tracking pixel
 www.google.com/appserve/mkt/img/*.gif
+
 ! Adobe audience manager (demdex)
 ! demdex.net is already blocked with Peter's list
 demdex.net^$image
+
 ! IC
 icptrack.com/icp/track
+
 ! MTA
 ping.answerbook.com
+
 ! IB
 mkt4477.com/open
+
 ! SV
 strongview.com/t
+
 ! GM
 ec2-52-26-194-35.us-west-2.compute.amazonaws.com/x
+
 ! Amazon
 /gp/r.html?$image
-! EasyPrivacy
+
+! From EasyPrivacy
 /o.gif?
 /imp?*&li=
 /t.gif?
@@ -196,3 +258,33 @@ ec2-52-26-194-35.us-west-2.compute.amazonaws.com/x
 .bluekai.com/*?e_id_
 /pippio.
 wizrocketmail.net/r
+
+! Pigeon (https://trypigeon.co/)
+t.mailpgn.com^$image
+
+! Gmass (https://www.gmass.co/)
+track.gmass.co
+x.gmtrack.net
+
+! Rebump (https://rebump.com)
+rebump.cc/api/track
+
+! New York times
+nytimes.com/pixel^$image
+
+! Substack
+email.*.substack.com/o^$image
+
+! Snov.io
+signaldomn.online/track^$image
+
+! Generic 1x1 pixel css selectors below 👇
+
+! height: 0|1, width: 0|1 in style attribute in any order
+##img[style*="height: 0"][style*="width: 0"]
+##img[style*="height: 1px"][style*="width: 1px"]
+
+! height=0|1 width=0|1 attributes
+##img[height^="0"][width^="0"]
+##img[height="1"][width="1"]
+##img[height="1px"][width="1px"]
