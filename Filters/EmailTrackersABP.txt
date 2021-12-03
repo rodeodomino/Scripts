@@ -13,7 +13,7 @@
 ! Sendgrid
 /wf/open
 /trk
-/o/*$image
+/o/*$image,domain=googleusercontent.com
 
 ! Drip
 dripemail2
