@@ -1,6 +1,6 @@
 ! Title: Email Trackers ABP List
 ! Description: Email trackers block list for uBlock Origin
-! Last modified: 14 Nov 2021 06:39 UTC
+! Last modified: 01 Jul 2022 06:39 UTC
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Attribution: Original lists from: 
 !                                 UglyEmail https://github.com/OneClickLab/ugly-email-trackers
