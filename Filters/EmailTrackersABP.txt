@@ -288,3 +288,8 @@ signaldomn.online/track^$image
 !##img[height^="0"][width^="0"]
 !##img[height="1"][width="1"]
 !##img[height="1px"][width="1px"]
+
+!@gwarser
+! ——— gmail tracking
+*/cleardot.gif$image,redirect=1x1.gif
+*/cleardot.gif$xmlhttprequest,redirect=1x1.gif
