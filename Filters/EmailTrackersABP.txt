@@ -1,6 +1,6 @@
 ! Title: Email Trackers ABP List
 ! Description: Email trackers block list for uBlock Origin
-! Last modified: 01 Jul 2022 06:39 UTC
+! Last modified: 11 Apr 23 16:27 UTC
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Attribution: Original lists from: 
 !                                 UglyEmail https://github.com/OneClickLab/ugly-email-trackers
@@ -9,14 +9,18 @@
 
 ! MailChimp
 /track/open.php?u=
+list-manage.com
 
 ! Sendgrid
-/wf/open
+/wf/open?upn=
 /trk
 /o/*$image,domain=googleusercontent.com
 
 ! Drip
 dripemail2
+
+! Mailgun
+/e/o/
 
 ! Streak
 mailfoogae.appspot.com
@@ -38,20 +42,21 @@ t.sigopn*.com
 t.senal*.com
 t.signale*.com
 t.strk*.email
-t.sidekickopen*.com
+sidekickopen
 
 ! TinyLetter
 tinyletterapp.com
 
 ! MixMax
-mixmax.com/e/o
 email.mixmax.com
-mixmax.com/api/track/
 track.mixmax.com
+mixmax.com/api/track/
+mixmax.com/e/o
+/api/track/v2/
 
 ! MailTrack
-mailtrack.io/trace
 mltrk.io/pixel/
+mailtrack.io/trace/mail
 
 ! Marketo/ToutApp
 toutapp.com
@@ -70,6 +75,7 @@ tracking.cirrusinsight.com
 
 ! ConvertKit
 open.convertkit*.com^$image
+convertkit-mail*.com/o/
 
 ! Polymail
 polymail.io/*/z
@@ -86,11 +92,15 @@ yamm-track.appspot
 
 ! Close.io
 close.io/email_opened
+ml.closeml.com/t/*/*.png
 
 ! Constant Contact
 .net/on.jsp?
 rs6.net/on.jsp
 constantcontact.com/images/p1x1.gif
+
+! Marketo
+/trk?t=
 
 !Return Path
 returnpath.net/pixel.gif
@@ -108,19 +118,22 @@ via.intercom-mail-.com/o
 ! Mailjet
 /links.*/oo/
 .mjt.lu/
+/oo/*.gif
 
 ! Nethunt
 nethunt.com/api/*/track/email/
 
 ! Superhuman
-r.superhuman.com/*.gif
+r.superhuman.com
 
 ! Apple
 apple.com/report/2/its_mail_sf
 
+! Fast Mail
+list-manage*.com/track/open.php
+
 ! Fresh Mail
-mail.great-news.pl/o/
-mail.mailnews.pl/o/
+/o/*/*
 
 ! ActiveCampaign
 /lt.php*?l=open
@@ -152,7 +165,7 @@ mandrill.*/track/open.php
 list-manage*.com/track/open
 
 ! Mixpanel
-! mixpanel.com/trk
+mixpanel.com/trk
 mixpanel.com/track
 
 ! SparkPost
@@ -174,7 +187,7 @@ rs-stripe*
 
 ! TrackApp
 trackapp.io/*/track.gif
-trackapp\.io\/[a-z]\/$image
+trackapp.io/*/$image
 
 !Sendinblue
 sendibww.com/track/
@@ -193,8 +206,23 @@ saleshandy.com/web/email/countopened
 /tools/emails/open/*
 
 ! Amazon SES
-I0/
+/*I0/
 awstrack.me
+
+! Cooper Press
+/open/
+
+! Sare
+*.enewsletter.pl/*.gif
+
+! Selligent
+/optiext/optiextension.dll?ID=
+
+! Technolutions
+mx.technolutions.net/ss/o/*/ho.gif
+
+! Vocus
+tracking.vocus.io
 
 ! GMelius email tracking
 gml.email
@@ -277,17 +305,6 @@ email.*.substack.com/o^$image
 
 ! Snov.io
 signaldomn.online/track^$image
-
-! Generic 1x1 pixel css selectors below 👇
-
-! height: 0|1, width: 0|1 in style attribute in any order
-!##img[style*="height: 0"][style*="width: 0"]
-!##img[style*="height: 1px"][style*="width: 1px"]
-
-! height=0|1 width=0|1 attributes
-!##img[height^="0"][width^="0"]
-!##img[height="1"][width="1"]
-!##img[height="1px"][width="1px"]
 
 !@gwarser
 ! ——— gmail tracking
