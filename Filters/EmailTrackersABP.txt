@@ -20,7 +20,7 @@ list-manage.com
 dripemail2
 
 ! Mailgun
-/e/o/
+/e/o/$image
 
 ! Streak
 mailfoogae.appspot.com
