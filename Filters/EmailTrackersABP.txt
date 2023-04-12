@@ -133,7 +133,7 @@ apple.com/report/2/its_mail_sf
 list-manage*.com/track/open.php
 
 ! Fresh Mail
-/o/*/*
+/o/*/*$image
 
 ! ActiveCampaign
 /lt.php*?l=open
@@ -210,7 +210,7 @@ saleshandy.com/web/email/countopened
 awstrack.me
 
 ! Cooper Press
-/open/^$image
+/open/$image
 
 ! Sare
 *.enewsletter.pl/*.gif
