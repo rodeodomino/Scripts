@@ -308,5 +308,6 @@ signaldomn.online/track^$image
 
 !@gwarser
 ! ——— gmail tracking
+*/cleardot.gif$image,xmlhttprequest
 */cleardot.gif$image,redirect=1x1.gif
 */cleardot.gif$xmlhttprequest,redirect=1x1.gif
