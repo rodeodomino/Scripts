@@ -1,279 +1,694 @@
 ! Title: Email Trackers ABP List
 ! Description: Email trackers block list for uBlock Origin
-! Last modified: 11 Apr 23 16:27 UTC
+! Last modified: 21 Jul 23 04:27 UTC
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Attribution: Original lists from: 
 !                                 UglyEmail https://github.com/OneClickLab/ugly-email-trackers
 !                                 Leavemealone-app https://github.com/leavemealone-app/email-trackers
-!
+!                                 Simplify Email Tracker Blocking https://github.com/leggett/simplify-trackers
+!                                 Tracker Blocking https://gist.github.com/dhh/360f4dc7ddbce786f8e82b97cdad9d20
 
-! MailChimp
-/track/open.php?u=
-list-manage.com
+! 365offers.trade
+trk.365offers.trade
 
-! Sendgrid
-/wf/open?upn=
-/trk
-/o/*$image,domain=googleusercontent.com
+! Absolutesoftware-email.com
+! [redundant] click.absolutesoftware-email.com/open.aspx
 
-! Drip
-dripemail2
+! ActionKit
+track.sp.actionkit.com/q/
 
-! Mailgun
-/e/o/$image
+! Acoustic.com
+mkt*.com/open
+mkt*.net/open
 
-! Streak
-mailfoogae.appspot.com
+! Active.com
+click.email.active.com/q
+
+! ActiveCampaign
+/lt.php*?l=open
+
+! Adobe audience manager (demdex)
+! demdex.net is already blocked with Peter's list
+demdex.net^$image
+t.info.adobesystems.com
+
+! AgileCRM
+agle2.me/open
+
+! Airbnb
+email.airbnb.com/wf/open
+
+! AirMiles.ca
+email.airmiles.ca/O
+
+! Alaska Airlines
+click.points-mail.com/open
+sjv.io/i
+gqco.net/i
+
+! Amazon
+/*I0/*
+awstrack.me
+aws-track-email-open
+/gp/r.html
+/gp/forum/email/tracking
+amazonappservices.com/trk
+amazonappservices.com/r
+awscloud.com/trk
+
+! Apple
+apple.com/report/2/its_mail_sf
+apple_email_link/spacer
+
+! Appriver.com
+appriver.com/e1t/o/
+
+! Apptivo.com
+apptivo.com
+
+! Asus
+emditpison.asus.com
+
+! The TheAtlantic
+links.e.theatlantic.com/open/log
+
+! AWeber
+openrate.aweber.com
+
+! Axios
+link.axios.com/img/*.gif
 
 ! Bananatag
 bl-1.com
 
-! Yesware
-yesware.com/t
-t.yesware.com
+! Blueshift.com
+blueshiftmail.com/wf/open
+getblueshift.com/track
 
-! Postmark
-pstmark.it/open
-
-! Hubspot/Sidekick
-t.signaux*.com
-track.getsidekick.com
-t.sigopn*.com
-t.senal*.com
-t.signale*.com
-t.strk*.email
-sidekickopen
-
-! TinyLetter
-tinyletterapp.com
-
-! MixMax
-email.mixmax.com
-track.mixmax.com
-mixmax.com/api/track/
-mixmax.com/e/o
-/api/track/v2/
-
-! MailTrack
-mltrk.io/pixel/
-mailtrack.io/trace/mail
-
-! Marketo/ToutApp
-toutapp.com
-
-! Litmus
-emltrk.com^$image
+! Bombcom.com
+bixel.io
 
 ! Boomerang
 mailstat.us/tr
 
-! ContactMonkey
-contactmonkey.com/api/*/tracker
+! Boots.com
+boots.com/rts/open.aspx
+
+! Boxbe.com
+boxbe.com/stfopen
+
+! Browserstack.com
+browserstack.com/images/mail/track-open
+
+! BuzzStream.com
+tx.buzzstream.com
+
+! Campaign Monitor
+cmail*.com/t/
+
+! CanaryMail.io
+canarymail.io:*/track
 
 ! Cirrus Insight
 tracking.cirrusinsight.com
+pardot.com/r/
 
-! ConvertKit
-open.convertkit*.com^$image
-convertkit-mail*.com/o/
-
-! Polymail
-polymail.io/*/z
-share.polymail.io
-
-! YAMM
-yamm-track.appspot
-
-! GetResponse
-/open.html?x=
-
-! phpList
-/ut.php?u=
+! Clio.com
+market.clio.com/trk
 
 ! Close.io
 close.io/email_opened
+close.com/email_opened
 ml.closeml.com/t/*/*.png
+
+! Cloudhq.io
+cloudhq.io/mail_track
+cloudhq-mkt*.net/mail_track
+
+! Coda.io
+coda.io/logging/ping
+
+! CodePen.io
+mailer.codepen.io/q
+
+! ConneQuityMailer.com
+connequitymailer.com/open/
 
 ! Constant Contact
 .net/on.jsp?
 rs6.net/on.jsp
 constantcontact.com/images/p1x1.gif
 
-! Marketo
-/trk?t=
+! ContactMonkey
+contactmonkey.com/api/*/tracker
 
-!Return Path
-returnpath.net/pixel.gif
+! ConvertKit
+open.convertkit*.com^$image
+convertkit-mail*.com/o/
 
-! Outreach
-getoutreach.com/api/mailings/opened
-outrch.com/api/mailings/opened
-whosen.com/api/mailings/opened
+! Cooper Press
+/open/*$image
 
-! Intercom
-intercom-*.com/via/
-intercom-*.com/q/
-via.intercom-mail-.com/o
+! Copper.com
+prosperworks.com/tp/t
 
-! Mailjet
-/links.*/oo/
-.mjt.lu/
-/oo/*.gif
+! Cprpt.com
+/o.aspx?t=
 
-! Nethunt
-nethunt.com/api/*/track/email/
+! Creditmantri.com
+mailer.creditmantri.com/t/
 
-! Superhuman
-r.superhuman.com
+! Critical Impact
+portal.criticalimpact.com/c2/
 
-! Apple
-apple.com/report/2/its_mail_sf
+! Customer.io
+customeriomail.com/e/o
+track.customer.io/e/o
+/e/o$image
+
+! Dell.com
+ind.dell.com
+
+! DidTheyReadIt.com email tracking
+xpostmail.com
+
+! DotDigital.com
+trackedlink.net
+dmtrk.net
+
+! Driftem.com
+driftem.com/ltrack
+
+! Drip
+dripemail2
+
+! Dropbox.com
+dropbox.com/l/
+
+! DZone.com
+mailer.dzone.com/open.php
+
+! Ebsta.com
+console.ebsta.com
+ebsta.gif
+ebsta.com/r/
+
+! EdgeSuite.net
+epidm.edgesuite.net
+
+! Egocdn.com
+egocdn.com/syn/mail_s.php
+
+! EmailTracker.website
+my-email-signature.link
+
+! Emarsys
+! made redundant by Hubspot rule
+! emarsys.com/e2t/o/
+
+! Etransmail.com
+ftrans03.com/linktrack/
+
+! EventBrite.com
+eventbrite.com/emails/action
+
+! EventsInYourArea.com
+eventsinyourarea.com/track
+
+! EveryAction.com
+click.everyaction.com/j/
+
+! Evite.com
+pippio.com/api/sync
+nli.evite.com/imp
+
+! Facebook.com
+facebook.com/email_open_log_pic.php
+facebookdevelopers.com/trk
+fb.com/trk
 
 ! Fast Mail
-list-manage*.com/track/open.php
+! Made redundant by Mandrill rule
+! list-manage*.com/track/open.php
+
+! Flipkart.com
+flipkart.com/t/open
+
+! ForMirror.com
+formirror.com/open/
+
+! FreeLancer.com
+freelancer.com/1px.gif
 
 ! Fresh Mail
 /o/*/*$image
+mail.*.pl/o/
 
-! ActiveCampaign
-/lt.php*?l=open
+! Front
+app.frontapp.com/*/seen
+web.frontapp.com/api
 
-! AWeber
-openrate.aweber.com
+! FullContact.com
+fullcontact.com/wf/open
+
+! GearBest.com
+appinthestore.com/marketing/mail-user-deal/open
+
+! Gem
+zen.sr/o
+
+! GetBase.com
+getbase.com/e1t/o/
 
 ! Getnotify
-email81.com/case
+email81.com
 
-! GrowthDot
+! GetPocket.com
+email.getpocket.com/wf/open
+
+! GetResponse
+/open.html?x=
+getresponse.com/open.html
+
+! Github.com
+github.com/notifications/beacon
+
+! GlassDoor.com
+mail.glassdoor.com/pub/as
+
+! Gmass (https://www.gmass.co/)
+track.gmass.co
+ec2-52-26-194-35.us-west-2.compute.amazonaws.com/x
+gmreg*.net
+gmtrack.net
+
+! GMelius email tracking
+gml.email
+
+! Google email marketing tracking pixel
+google.com/appserve/mkt/img/*.gif
+ad.doubleclick.net/ddm/ad
+google-analytics.com/collect
+
+! Granicus.com
+govdelivery.com*/track
+
+! GrowthDot.com
 growthdot.com/api/mail-tracking
 
-! Hubspot
-hubspotstarter.net
+! Grammarly.com
+grammarly.com/open
+
+! GreenMailInc.com
+greenmail.co.in
+
+! Homeaway.com
+trk.homeaway.com
+
+! Hubspot/Sidekick
+t.signaux
+track.getsidekick.com
+t.sigopn
+t.senal
+t.signale
+t.strk*.email
+t.sidekickopen
 t.hubspotemail
+hubspotstarter.net
 t.hubspotfree
 t.hsmsdd
 /e2t/to/*
 /e2t/c/*
 /e2t/o/*
 
-! Mailspring
-getmailspring.com/open
-
-! Mandrill
-mandrillapp.com/track
-mandrill.*/track/open.php
-list-manage*.com/track/open
-
-! Mixpanel
-mixpanel.com/trk
-mixpanel.com/track
-
-! SparkPost
-go.sparkpostmail2.com/q/
-
-! Salesforce
-click.*/open.aspx
-salesforceiq.com/t.png
-beacon.krxd.net
-
-! PersistIQ
-infinite-stream-5194.herokuapp.com/pixel/
-
-! Sailthru
-! sailthru.com/trk
-
-! PowerInbox - RevenueStripe
-rs-stripe*
-
-! TrackApp
-trackapp.io/*/track.gif
-trackapp.io/*/$image
-
-!Sendinblue
-sendibww.com/track/
-
-! Segment
-email.segment.com/e/o/
-
-! SalesLoft
-salesloft.com/email_trackers
-salesloftlinks.com/t/
-
-! SalesHandy
-saleshandy.com/web/email/countopened
-
-! Shopify
-/tools/emails/open/*
-
-! Amazon SES
-/*I0/
-awstrack.me
-
-! Cooper Press
-*/open/*$image
-
-! Sare
-*.enewsletter.pl/*.gif
-
-! Selligent
-/optiext/optiextension.dll?ID=
-
-! Technolutions
-mx.technolutions.net/ss/o/*/ho.gif
-
-! Vocus
-tracking.vocus.io
-
-! GMelius email tracking
-gml.email
-
-! DidTheyReadIt.com email tracking
-xpostmail.com
-
-! Magento email tracking
-! magento.com/trk
+! iContact
+icptrack.com/icp/track
+click.icptrack.com/icp
 
 ! Insightly email tracking
 ! https://support.insight.ly/hc/en-us/articles/360004027674-How-to-enable-or-disable-email-tracking
 ! insgly.net/api/trk
 
-! PipeDrive "read receipt" tracking pixel
-! https://support.pipedrive.com/hc/en-us/articles/115005541949-Email-Tracking
-! PipeDrive sometimes uses Nylas API for open tracking
-api.nylas.com/open/
+! Infusionsoft.com
+infusionsoft.com/app/emailOpened
+
+! Insightly.com
+insgly.net/api/trk
+
+! Intercom
+intercom-*.com/via
+intercom-*.com/q
+intercom-*.com/o
+via.intercom.io/o
+
+! Is-tracking-pixel-api-prod.appspot.com
+is-tracking-pixel-api-prod.appspot.com
+
+! JangoMail.com
+z?=$image
+
+! Klaviyo.com
+trk.klaviyomail.com
+
+! LaunchBit.com
+launchbit.com/taz-pixel
+
+! Linkedin.com
+linkedin.com/emimp/
+
+! Litmus
+emltrk.com^$image
+
+! LogDNA.com
+ping.answerbook.com
+
+! Magento email tracking
+! magento.com/trk
+go.rjmetrics.com
+magento.com/wf/open
+
+! MailButler.io
+mailbutler.io/tracking/
+
+! Mailcastr.com
+mailcastr.com/image/
+
+! MailChimp
+! [Redundant] /track/open.php?u=
+list-manage.com/track
+
+! MailCoral.com
+mailcoral.com/open
+
+! Mailgun
+! [redundant] /e/o/*$image
+email.mailgun*/o
+email.mg*/o
+
+! MailInifinity.com
+mailinifinity.com/ptrack
+
+! Mailjet
+/links.*/oo/
+mjt.lu/oo
+/oo/*.gif
+
+! Mailspring
+getmailspring.com/open
+
+! MailTag.io
+mailtag.io/email-event
+
+! MailTrack
+mltrk.io/pixel
+mailtrack.io/trace
+
+! Mailzter.in
+mailzter.in/ltrack
+
+! Mandrill
+mandrillapp.com/track
+! [redundant] mandrill.*/track/open.php
+! [redundant] list-manage*.com/track/open
+
+! Marketo
+/trk?t=
+resources.marketo.com/trk
+toutapp.com
+
+! Mention.com
+mention.com/e/o/
+
+! MetaData.io
+metadata.io/e1t/o/
+
+! MixMax.com
+email.mixmax.com
+track.mixmax.com
+mixmax.com/api/track/
+mixmax.com/e/o
+api/track/v2
+
+! Mixpanel
+mixpanel.com/trk
+mixpanel.com/track
+
+! MyEmma.com
+e2ma.net/track
+t.e2ma.net
+
+! Nation Builder
+nationbuilder.com/r/o
+nationbuilder.com/wf/open
+
+! NeteCart.com
+netecart.com/ltrack
+
+! Nethunt
+nethunt.com/api/*/track/email/
+nethunt.co*/pixel.gif
+
+! Newton
+tr.cloudmagic.com
+
+! New York times
+nytimes.com/pixel^$image
+
+! OpenBracket.co
+openbracket.co/track
+
+! Opicle.com
+track.opicle.com
 
 ! Oracle Eloqua email tracking
 ! https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/Help/Emails/CalculatingEmailOpens.htm
 ! https://media.superhumanapp.com/images/_/https://s1259914507.t.en25.com/e/FooterImages/FooterImage1?elq=34089dc840e54f10ba9fb212d35f0cf2&siteid=1259914507
-/e/FooterImages/FooterImage1
+e/FooterImages/FooterImage
 ?elq=
+tags.bluekai.com/site
+en25.com/e/
+dynect.net/trk.php
+bm5150.com/t/
+bm23.com/t/
 
-! Google email marketing tracking pixel
-www.google.com/appserve/mkt/img/*.gif
+! Outreach
+app.outreach.io
+api/mailings/opened
 
-! Adobe audience manager (demdex)
-! demdex.net is already blocked with Peter's list
-demdex.net^$image
+! PayBack.in
+email.payback.in/a/
+mail.payback.in/tr/
 
-! IC
-icptrack.com/icp/track
+! PayPal.com
+paypal-communication.com/O/
 
-! MTA
-ping.answerbook.com
+! Paytm.com
+email.paytm.com/wf/open
+trk.paytmemail.com
 
-! IB
-mkt4477.com/open
+! PersistIQ
+infinite-stream-5194.herokuapp.com/pixel/
 
-! SV
+! phpList
+/ut.php?u=
+phplist.com/lists/ut.php
+
+! Pigeon (https://trypigeon.co/)
+t.mailpgn.com^$image
+
+! PipeDrive "read receipt" tracking pixel
+! https://support.pipedrive.com/hc/en-us/articles/115005541949-Email-Tracking
+! PipeDrive sometimes uses Nylas API for open tracking
+api.nylas.com/open/
+pipedrive.com/wf/open
+
+! Playdom.com
+playdom.com/g
+
+! Polymail
+polymail.io/v2/z
+share.polymail.io
+
+! Postmark
+pstmark.it/open
+
+! PowerInbox - RevenueStripe
+rs-stripe
+
+! ProlificMail.com
+prolificmail.com/ltrack
+
+! Quora.com
+quora.com/qemail/mark_read
+
+! Rebump (https://rebump.com)
+rebump.cc/api/track
+
+! ReplyCal.com
+replycal.com/home/index/*token
+
+! ReplyMsg.com
+replymsg.com
+
+! Responder.co.il
+opens.responder.co.il
+
+! Return Path
+returnpath.net/pixel.gif
+
+! Rocketbolt.com
+email.rocketbolt.com/o/
+
+! Runtastic.com
+runtastic.com/mo/
+
+! Sailthru
+sailthru.com/trk
+
+! Salesforce
+click.*/open.aspx
+salesforceiq.com/t.png
+beacon.krxd.net
+nova.collect.igodigital.com
+app.relateiq.com/t.png
+exct.net/open.aspx
+
+! SalesHandy
+saleshandy.com/web/email/countopened
+
+! SalesLoft
+salesloft.com/email_trackers
+salesloftlinks.com/t/
+
+! Sare
+enewsletter.pl/*.gif
+
+! Segment
+email.segment.com/e/o/
+
+! Sendgrid
+wf/open?upn
+sendgrid.net/wf/open
+sendgrid.com/wf/open
+sendgrid.net/trk
+sendgrid.com/trk
+sendgrid.net/mpss/o
+sendgrid.com/mpss/o
+sendgrid.net/ss/o
+sendgrid.com/ss/o
+
+! SendInBlue.com
+sendibt*.com
+sendibw*.com/track/
+
+! SendPulse.email
+stat-pulse.com
+
+! Sendy
+sendy/t
+
+! Sensorpro
+run/open.aspx?osid=
+
+! Selligent
+/optiext/optiextension.dll?ID=
+
+! Shopify
+/tools/emails/open/*
+
+! Signal.co
+signl.live/tracker
+
+! Skillsoft.com
+skillsoft.com/trk
+
+! Snov.io
+signaldomn.online/track^$image
+sgndrp.online/open
+
+! SparkPost
+go.sparkpostmail2.com/q/
+
+! Streak
+mailfoogae.appspot.com
+streak.com/e/o/
+
+! Strongview
 strongview.com/t
 
-! GM
-ec2-52-26-194-35.us-west-2.compute.amazonaws.com/x
+! Substack
+substack.com/o/
 
-! Amazon
-/gp/r.html?$image
+! Superhuman
+r.superhuman.com
 
-! From EasyPrivacy
+! TataDocomoBusiness.com
+tatadocomobusiness.com/rts/
+
+! Techgig.com
+tj_mailer_opened_count_all.php
+
+! Technolutions
+mx.technolutions.net/ss/o/*/ho.gif
+
+! Thunderhead
+na5.thunderhead.com
+
+! TheTopInbox.com
+thetopinbox.com/track/
+
+! TinyLetter
+tinyletterapp.com*open.gif
+
+! TrackApp
+trackapp.io/*/track.gif
+trackapp.io/b
+trackapp.io/r
+
+! Transferwise.com
+links.transferwise.com/track/
+
+! Trello.com
+sptrack.trello.com/q/
+i.trellomail.com/e/eo
+
+! Udacity.com
+udacity.com/wf/open
+
+! Unsplash.com
+email.unsplash.com/o/
+
+! Vcommission.com
+tracking.vcommission.com
+
+! Vocus
+tracking.vocus.io
+
+! Vtiger.com
+od2.vtiger.com/shorturl.php
+
+! WildApricot.com
+wildapricot.com/o/
+wildapricot.org/emailtracker
+
+! Wix.com
+shoutout.wix.com/*/pixel/
+
+! Workona.com
+workona.com/mk/op/
+
+! YAMM
+yamm-track.appspot
+
+! Yesware
+yesware.com/trk
+yesware.com/t/
+t.yesware.com
+
+! Zendesk Sell
+futuresimple.com/api/v1/sprite.png
+
+! Misc from EasyPrivacy
 /o.gif?
 /imp?*&li=
 /t.gif?
@@ -286,26 +701,11 @@ ec2-52-26-194-35.us-west-2.compute.amazonaws.com/x
 .bluekai.com/*?e_id_
 /pippio.
 wizrocketmail.net/r
+/track/open
+/open.aspx?tp=
+/WebEvent/SetCookie.gif?tp=
+/smtp.mailopen
 
-! Pigeon (https://trypigeon.co/)
-t.mailpgn.com^$image
-
-! Gmass (https://www.gmass.co/)
-track.gmass.co
-x.gmtrack.net
-
-! Rebump (https://rebump.com)
-rebump.cc/api/track
-
-! New York times
-nytimes.com/pixel^$image
-
-! Substack
-email.*.substack.com/o^$image
-
-! Snov.io
-signaldomn.online/track^$image
-
-!@gwarser
+! @gwarser
 ! ——— gmail tracking
 */cleardot.gif$redirect=1x1.gif
