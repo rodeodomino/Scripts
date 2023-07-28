@@ -705,6 +705,8 @@ wizrocketmail.net/r
 /open.aspx?tp=
 /WebEvent/SetCookie.gif?tp=
 /smtp.mailopen
+.com/track?$~object
+
 
 ! @gwarser
 ! ——— gmail tracking
