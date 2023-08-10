@@ -435,7 +435,7 @@ mixpanel.com/track
 
 ! MyEmma.com
 e2ma.net/track
-t.e2ma.net
+t.e2ma.net$image
 
 ! Nation Builder
 nationbuilder.com/r/o
