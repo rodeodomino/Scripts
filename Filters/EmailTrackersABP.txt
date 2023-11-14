@@ -710,4 +710,10 @@ wizrocketmail.net/r
 
 ! @gwarser
 ! ——— gmail tracking
-*/cleardot.gif$redirect=1x1.gif
+! breaks google chat */cleardot.gif$redirect=1x1.gif
+||ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif
+||ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif$redirect=1x1.gif
+||mail.google.com/mail/u/*/images/cleardot.gif
+||mail.google.com/mail/u/*/images/cleardot.gif$redirect=1x1.gif
+
+
