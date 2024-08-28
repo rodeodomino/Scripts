@@ -1,0 +1,5 @@
+mask-h2.icloud.com
+doh.dns.apple.com
+mask.icloud.com
+mozilla.cloudflare-dns.com
+use-application-dns.net
