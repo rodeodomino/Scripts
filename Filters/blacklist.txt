@@ -1,0 +1,13 @@
+connect.facebook.com
+graph-fallback.instagram.com
+graph-fallback.facebook.com
+graph.instagram.com
+media-lab.ai
+connect.facebook.net
+web.facebook.com
+cardlytics.com
+firebasedynamiclinks-ipv6.googleapis.com
+firebasedynamiclinks-ipv4.googleapis.com
+firebase-dot-google-developers.appspot.com
+imasdk.googleapis.com
+graph.facebook.com
