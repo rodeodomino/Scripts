@@ -147,7 +147,7 @@ open.convertkit*.com^$image
 convertkit-mail*.com/o/
 
 ! Cooper Press
-/open/*$image
+! /open/*$image
 
 ! Copper.com
 prosperworks.com/tp/t
